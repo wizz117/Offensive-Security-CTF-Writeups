@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2024.10.3" exportTime="Mon Dec 02 04:27:10 EST 2024">
+  <item>
+    <time>Wed Dec 31 19:00:00 EST 1969</time>
+    <url><![CDATA[http://offsec-chalbroker.osiris.cyber.nyu.edu:1505/login]]></url>
+    <host ip="128.238.62.235">offsec-chalbroker.osiris.cyber.nyu.edu</host>
+    <port>1505</port>
+    <protocol>http</protocol>
+    <method><![CDATA[POST]]></method>
+    <path><![CDATA[/login]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[UE9TVCAvbG9naW4gSFRUUC8xLjENCkhvc3Q6IG9mZnNlYy1jaGFsYnJva2VyLm9zaXJpcy5jeWJlci5ueXUuZWR1OjE1MDUNCkNvbnRlbnQtTGVuZ3RoOiAyMQ0KQ2FjaGUtQ29udHJvbDogbWF4LWFnZT0wDQpBY2NlcHQtTGFuZ3VhZ2U6IGVuLVVTLGVuO3E9MC45DQpPcmlnaW46IGh0dHA6Ly9vZmZzZWMtY2hhbGJyb2tlci5vc2lyaXMuY3liZXIubnl1LmVkdToxNTA1DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZA0KVXBncmFkZS1JbnNlY3VyZS1SZXF1ZXN0czogMQ0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEzMS4wLjY3NzguODYgU2FmYXJpLzUzNy4zNg0KQWNjZXB0OiB0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSxpbWFnZS9hdmlmLGltYWdlL3dlYnAsaW1hZ2UvYXBuZywqLyo7cT0wLjgsYXBwbGljYXRpb24vc2lnbmVkLWV4Y2hhbmdlO3Y9YjM7cT0wLjcNClJlZmVyZXI6IGh0dHA6Ly9vZmZzZWMtY2hhbGJyb2tlci5vc2lyaXMuY3liZXIubnl1LmVkdToxNTA1L2xvZ2luDQpBY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGRlZmxhdGUsIGJyDQpDb29raWU6IENIQUxCUk9LRVJfVVNFUl9JRD12YzI0OTkNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCg0KdXNlcm5hbWU9dmMyNDk5JnBhc3N3b3JkPXZjMjQ5OQ==]]></request>
+    <status></status>
+    <responselength></responselength>
+    <mimetype></mimetype>
+    <response base64="true"></response>
+    <comment></comment>
+  </item>
+</items>
